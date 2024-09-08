@@ -3,7 +3,7 @@ import PlayListItem from "./PlayListItem";
 
 export default function Playlist() {
   return (
-    <div className="flex w-1/2 flex-col border-l p-6 sm:w-full">
+    <div className="flex w-1/2 flex-col border-t md:border-l md:border-t-0 p-6 sm:w-full">
       <h2 className="mb-4 text-lg font-semibold">Playlist</h2>
       <div className="flex flex-col pr-4">
         <PlayListItem
