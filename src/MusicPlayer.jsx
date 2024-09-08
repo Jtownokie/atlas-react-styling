@@ -4,7 +4,7 @@ import Playlist from "./components/Playlist";
 
 export default function MusicPlayer() {
   return (
-    <div className="flex flex-col md:flex-row mx-auto h-full w-full max-w-4xl shadow-lg">
+    <div className="mx-auto flex h-full w-full max-w-4xl flex-col shadow-lg md:flex-row">
       <CurrentlyPlaying />
       <Playlist />
     </div>

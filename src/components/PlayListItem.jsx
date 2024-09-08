@@ -2,12 +2,12 @@
 
 export default function PlayListItem(props) {
   return (
-    <div className="flex flex-row items-center justify-between mb-1">
+    <div className="mb-1 flex flex-row items-center justify-between">
       <div className="flex flex-col">
-        <p className="font-medium text-sm">{props.title}</p>
-        <p className="text-slate-500 text-sm font-medium">{props.artist}</p>
+        <p className="text-sm font-medium">{props.title}</p>
+        <p className="text-sm font-medium text-slate-500">{props.artist}</p>
       </div>
-      <p className="text-slate-400 text-sm font-medium">{props.songLength}</p>
+      <p className="text-sm font-medium text-slate-400">{props.songLength}</p>
     </div>
   );
 }
