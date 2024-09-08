@@ -3,9 +3,9 @@ import PlayListItem from "./PlayListItem";
 
 export default function Playlist() {
   return (
-    <div>
-      <h2>Playlist</h2>
-      <div>
+    <div className="flex flex-col w-1/2 sm:w-full p-6 border-l">
+      <h2 className="font-semibold mb-4 text-lg">Playlist</h2>
+      <div className="flex flex-col pr-4">
         <PlayListItem title="Painted in Blue" artist="Soul Canvas" songLength="5:55"/>
         <PlayListItem title="Tidal Drift" artist="Echoes of the Sea" songLength="8:02"/>
         <PlayListItem title="Fading Shadows" artist="The Emberlight" songLength="3:01"/>
