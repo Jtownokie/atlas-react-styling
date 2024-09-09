@@ -3,7 +3,7 @@
 export default function PlayControls() {
   return (
     <div className="mb-4 flex flex-row items-center justify-between">
-      <button className="inline-flex h-10 w-10 items-center justify-center whitespace-nowrap text-lg font-medium">
+      <button className="inline-flex h-10 w-10 items-center justify-center whitespace-nowrap text-lg font-medium text-gold">
         1x
       </button>
       <button className="inline-flex h-10 w-10 items-center justify-center text-sm font-medium">
@@ -13,7 +13,7 @@ export default function PlayControls() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6 fill-black opacity-50"
+          className="size-6 fill-gold opacity-50"
         >
           <path
             strokeLinecap="round"
@@ -22,14 +22,14 @@ export default function PlayControls() {
           />
         </svg>
       </button>
-      <button className="inline-flex h-12 w-12 items-center justify-center rounded-md text-sm font-medium outline">
+      <button className="inline-flex h-12 w-12 items-center justify-center rounded-md text-sm font-medium outline outline-gold">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6 fill-black"
+          className="size-6 fill-gold"
         >
           <path
             strokeLinecap="round"
@@ -45,7 +45,7 @@ export default function PlayControls() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6 fill-black"
+          className="size-6 fill-gold"
         >
           <path
             strokeLinecap="round"
@@ -61,7 +61,7 @@ export default function PlayControls() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6"
+          className="size-6 text-gold"
         >
           <path
             strokeLinecap="round"

@@ -3,13 +3,14 @@ import PlayListItem from "./PlayListItem";
 
 export default function Playlist() {
   return (
-    <div className="flex w-1/2 flex-col border-t md:border-l md:border-t-0 p-6 sm:w-full">
-      <h2 className="mb-4 text-lg font-semibold">Playlist</h2>
+    <div className="flex w-1/2 flex-col border-t p-6 sm:w-full md:border-l md:border-t-0">
+      <h2 className="mb-4 text-lg font-semibold text-gold">Playlist</h2>
       <div className="flex flex-col pr-4">
         <PlayListItem
           title="Painted in Blue"
           artist="Soul Canvas"
           songLength="5:55"
+          backgroundColor="bg-light-burgundy"
         />
         <PlayListItem
           title="Tidal Drift"
